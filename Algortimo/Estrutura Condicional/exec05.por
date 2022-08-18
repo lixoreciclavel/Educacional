@@ -13,6 +13,25 @@ programa
 	
 	funcao inicio()
 	{
+		real codigo 
+		escreva("Informe o código do seu produto: ")
+		leia(codigo)
+
+		se (codigo == 1){
+			escreva("Seu produto é um alimento não-pericível")
+			
+		}senao se (codigo == 2 ou codigo == 3 ou codigo == 4){
+			escreva("Seu produto é um alimento perecível")
+			
+		}senao se (codigo == 5 ou codigo == 6){
+			escreva("Seu produto é um item de vestuário")
+			
+		}senao se (codigo == 7){
+			escreva("Seu produto é de Higiene pessoal")
+			
+		}senao{
+			escreva("ERRO")
+		}
 		
 	}
 }
